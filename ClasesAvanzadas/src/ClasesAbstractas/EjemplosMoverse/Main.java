@@ -18,9 +18,11 @@ public class Main {
     }
 
     private static void MoverABatman(Batman batman) {
-        String movimiento = sc.nextLine();
+        String movimiento;
         do {
+            movimiento = sc.nextLine();
             if (movimiento.equalsIgnoreCase("w")) {
+
             }
         } while (movimiento.equalsIgnoreCase("w") || movimiento.equalsIgnoreCase("a") || movimiento.equalsIgnoreCase("s") || movimiento.equalsIgnoreCase("d"));
     }

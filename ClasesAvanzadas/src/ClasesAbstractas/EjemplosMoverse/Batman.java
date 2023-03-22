@@ -17,7 +17,6 @@ private String direccion;
     }
 
     protected String Posicion;
-    private String posicion;
 
     public static String getPosicion() {
         return "X: " + x + ", Y: " + y;
@@ -32,6 +31,14 @@ private String direccion;
     }
         Posicion = "X: " + x + ", Y: " + y;
 
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
     }
 
     private void masGirosIzquierda(String direccion) {
